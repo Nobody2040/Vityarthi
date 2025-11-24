@@ -66,7 +66,7 @@ def search_feedback():
     if not found:
         print(f"No feedback found for '{search_name}'")
 def view_statistics():
-    """Display feedback statistics"""
+
     if not feedback_list:
         print("\nNo feedback records found.")
         return
@@ -109,3 +109,4 @@ def main():
             print("\n❌ Inva5lid choice. Please enter a number between 1 and 5.")
 if __name__ == "__main__":
     main()
+
